@@ -8,6 +8,18 @@
 (1)客户和原厂给出的计算方法
 ![image](https://github.com/wushulu/Microchip-Motor/blob/master/%E5%9B%BE%E7%89%87/SMC_1.jpg)
 (2)dome 代码中给出的计算方法<br>
+```
+	if (Q15(PHASERES * LOOPTIMEINSEC) > Q15(PHASEIND))
+		s->Fsmopos = Q15(0.0);
+	else
+		s->Fsmopos = Q15(1 - PHASERES * LOOPTIMEINSEC / PHASEIND);
+
+	if (Q15(LOOPTIMEINSEC) > Q15(PHASEIND))
+		s->Gsmopos = Q15(0.99999);
+	else
+		s->Gsmopos = Q15(LOOPTIMEINSEC / PHASEIND * UMAX / IPEAK);
+
+```
 
 ![image](https://github.com/wushulu/Microchip-Motor/blob/master/%E5%9B%BE%E7%89%87/SMC_2.png)
 
