@@ -5,7 +5,8 @@
    evalua_baord.rar 文件为两种上位机调试软件配置 X2C_Scope 和 DMCI 
 ## 滑模参数的影响
 ### 滑模参数的两种计算方法
-    ![image](https://github.com/wushulu/Microchip-Motor/blob/master/%E5%9B%BE%E7%89%87/SMC_1.jpg)
+![image](https://github.com/wushulu/Cproject/blob/master/%E5%9B%BE%E7%89%87/%E4%BB%BF%E7%9C%9F.png)
+![image](https://github.com/wushulu/Microchip-Motor/blob/master/%E5%9B%BE%E7%89%87/SMC_1.jpg)
     （2 ）dome 代码中给出的计算方法<br>
      ![image](https://github.com/wushulu/Microchip-Motor/blob/master/%E5%9B%BE%E7%89%87/SMC_2.png)
 
