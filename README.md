@@ -8,7 +8,7 @@
 (1)客户和原厂给出的计算方法
 ![image](https://github.com/wushulu/Microchip-Motor/blob/master/%E5%9B%BE%E7%89%87/SMC_1.jpg)
 (2)dome 代码中给出的计算方法<br>
-```
+``` c
 	if (Q15(PHASERES * LOOPTIMEINSEC) > Q15(PHASEIND))
 		s->Fsmopos = Q15(0.0);
 	else
