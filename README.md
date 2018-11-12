@@ -21,9 +21,6 @@
 
 ```
 
-![image](https://github.com/wushulu/Microchip-Motor/blob/master/%E5%9B%BE%E7%89%87/SMC_2.png)
-
-    
 ### beko电机调试
    beko 电机参数未知 滑模参数 G=1500 F=28000 切换速度为原来的2倍可以 顺利进入闭环<br>
    供电使用的是63V最大速度 Vmax=6800/Poles_pairs 极对数未知  
